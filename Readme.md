@@ -1,14 +1,18 @@
 # OpenAI/ChatGPT 免翻墙代理
 
+据很多网友反应，**OpenAI 检测到中国(含香港)的 API
+访问时，会直接封号**。所以我在国外的服务器上搭建了一个代理，用于访问
+OpenAI/ChatGPT 的 API。
+
 ## 使用
 
-OpenAI/ChatGPT 官方 npm 包：
+使用 OpenAI/ChatGPT 官方 npm 包：
 
-```ts
+```diff
 import { Configuration } from "openai";
 
 const configuration = new Configuration({
   apiKey: OPENAI_API_KEY,
-  basePath: "https://closeai.deno.dev/v1",
++ basePath: "https://closeai.deno.dev/v1",
 });
 ```
