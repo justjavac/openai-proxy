@@ -8,7 +8,7 @@ serve(async (request) => {
   if (url.pathname === "/") {
     return new Response(await Deno.readTextFile("./Readme.md"), {
       headers: {
-        "content-type": "text/plain",
+        "content-type": "text/plain;charset=UTF-8",
       },
     });
   }
