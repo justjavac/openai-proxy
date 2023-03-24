@@ -17,6 +17,15 @@ const configuration = new Configuration({
 });
 ```
 
+使用 OpenAI/ChatGPT 官方 Python 包：
+
+```diff
+import openai
+
+openai.api_key = os.getenv("OPENAI_API_KEY")
++ openai.api_base = "https://closeai.deno.dev/v1"
+```
+
 ## 相关仓库
 
 - [ChatGPT 从入门到精通](https://github.com/justjavac/chatgpt)
