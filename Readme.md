@@ -20,9 +20,9 @@ const configuration = new Configuration({
 使用 OpenAI/ChatGPT 官方 Python 包：
 
 ```diff
-import openai
+  import openai
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+  openai.api_key = os.getenv("OPENAI_API_KEY")
 + openai.api_base = "https://closeai.deno.dev/v1"
 ```
 
