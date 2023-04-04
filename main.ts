@@ -6,11 +6,7 @@ serve(async (request) => {
   const url = new URL(request.url);
 
   if (url.pathname === "/") {
-    return new Response(await Deno.readTextFile("./Readme.md"), {
-      headers: {
-        "content-type": "text/plain;charset=UTF-8",
-      },
-    });
+    return fetch(new URL("./Readme.md", import.meta.url));
   }
 
   url.host = OPENAI_API_HOST;
