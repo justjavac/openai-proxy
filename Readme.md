@@ -43,5 +43,7 @@ deno run --allow-net --allow-read --allow-env --watch main.ts
 然后在 Settings 选项卡里可以设置自定义二级域名，或者绑定自己的域名。
 
 [1]: https://dash.deno.com/new?url=https://raw.githubusercontent.com/justjavac/openai-proxy/main/main.ts
+
 ### CloudFlare
-将Cloudflare.ts复制到CloudFlare Workers中
+
+将 cloudflare.ts 复制到 CloudFlare Workers 中。
