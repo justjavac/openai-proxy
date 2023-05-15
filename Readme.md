@@ -37,7 +37,9 @@ deno run --allow-net --allow-read --allow-env --watch main.ts
 ```
 
 ## 自己部署
-### Demo
+
+### Deno
+
 点击[这个链接][1]，可以快速一键部署到 Deno Deploy 上。
 
 然后在 Settings 选项卡里可以设置自定义二级域名，或者绑定自己的域名。
