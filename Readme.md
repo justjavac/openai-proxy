@@ -15,9 +15,9 @@ OpenAI/ChatGPT 的 API。
 
 ### Deno
 
-点击[这个链接][1]，可以快速一键部署到 Deno Deploy 上。
+**Step1.** 点击[这个链接][1]，可以快速一键部署到 Deno Deploy 上。
 
-然后在 Settings 选项卡里可以设置自定义二级域名，或者绑定自己的域名。
+**Step2.** 在 Settings 选项卡里可以设置自定义二级域名，或者绑定自己的域名。
 
 或者，访问 https://deno.new 域名，把 deno.ts 复制到 Playground 中，点击 Play
 按钮。
@@ -48,14 +48,19 @@ const configuration = new Configuration({
 + openai.api_base = "https://xxxxx.deno.dev/v1"
 ```
 
-## 相关仓库
+## 相关资料
 
 - [ChatGPT 从入门到精通](https://github.com/justjavac/chatgpt)
+- [Deno 中文网](https://www.denojs.cn/)
+- [Cloudflare 官网](https://www.cloudflare.com/zh-cn/)
 
 ## 本地开发
+
+需在本地安装 [demo](https://www.denojs.cn/#installation)，然后执行如下命令: 
 
 ```bash
 deno run --allow-net --allow-read --allow-env --watch deno.ts
 ```
 
 [1]: https://dash.deno.com/new?url=https://raw.githubusercontent.com/justjavac/openai-proxy/main/deno.ts
+
