@@ -8,7 +8,7 @@ Deno.serve(async (request) => {
     headers: request.headers,
     method: request.method,
     body: request.body,
-    redirect: 'follow'
+    redirect: "follow",
   });
   return await fetch(newRequest);
 });

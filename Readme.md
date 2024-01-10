@@ -7,8 +7,8 @@ OpenAI/ChatGPT 的 API。
 ---
 
 **⚠️⚠️⚠️⚠️⚠️⚠️\
-由于 https://closeai.deno.dev
-访问量巨大，已经超过了 Deno Deploy 的额度，本代理暂时关闭，请大家参照教程自行部署。\
+由于 https://closeai.deno.dev 访问量巨大，已经超过了 Deno Deploy
+的额度，本代理暂时关闭，请大家参照教程自行部署。\
 ⚠️⚠️⚠️⚠️⚠️⚠️**
 
 ## 自己部署
