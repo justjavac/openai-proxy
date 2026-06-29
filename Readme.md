@@ -45,6 +45,11 @@ tencent-scf.js 作为函数入口。
 创建 Node.js 18 及以上版本的 Lambda 函数，并通过 API Gateway 暴露，将
 aws-lambda.js 作为函数入口。
 
+### Netlify
+
+将本仓库导入 Netlify，Netlify 会通过 netlify.toml 将所有路径转发到 Edge
+Function。
+
 ## 使用
 
 使用 OpenAI/ChatGPT 官方 npm 包：
