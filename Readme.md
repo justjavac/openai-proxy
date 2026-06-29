@@ -31,6 +31,10 @@ OpenAI/ChatGPT 的 API。
 将本仓库导入 Vercel，Vercel 会通过 vercel.json 将所有路径转发到 Edge
 Function。
 
+### 阿里云函数计算
+
+创建 Node.js 18 及以上版本的 HTTP 触发器函数，将 aliyun-fc.js 作为函数入口。
+
 ## 使用
 
 使用 OpenAI/ChatGPT 官方 npm 包：
