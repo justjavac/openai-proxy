@@ -26,6 +26,11 @@ OpenAI/ChatGPT 的 API。
 
 将 cloudflare.ts 复制到 CloudFlare Workers 中。
 
+### Vercel
+
+将本仓库导入 Vercel，Vercel 会通过 vercel.json 将所有路径转发到 Edge
+Function。
+
 ## 使用
 
 使用 OpenAI/ChatGPT 官方 npm 包：
