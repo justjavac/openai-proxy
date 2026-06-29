@@ -40,6 +40,11 @@ Function。
 创建 Node.js 18 及以上版本的云函数，通过 API Gateway 或 HTTP 触发器暴露服务，将
 tencent-scf.js 作为函数入口。
 
+### AWS Lambda
+
+创建 Node.js 18 及以上版本的 Lambda 函数，并通过 API Gateway 暴露，将
+aws-lambda.js 作为函数入口。
+
 ## 使用
 
 使用 OpenAI/ChatGPT 官方 npm 包：
