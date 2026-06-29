@@ -35,6 +35,11 @@ Function。
 
 创建 Node.js 18 及以上版本的 HTTP 触发器函数，将 aliyun-fc.js 作为函数入口。
 
+### 腾讯云云函数
+
+创建 Node.js 18 及以上版本的云函数，通过 API Gateway 或 HTTP 触发器暴露服务，将
+tencent-scf.js 作为函数入口。
+
 ## 使用
 
 使用 OpenAI/ChatGPT 官方 npm 包：
